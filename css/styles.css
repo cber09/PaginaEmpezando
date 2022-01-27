@@ -1,8 +1,26 @@
-h1{
-    color: blue;
-    text-align: center;
+
+:root {
+    --blanco:#ffffff;
+    --secundario:#0097A7;
+    --gris:#757575;
+    --primario: #FFC107;
+    --oscuro:#717171;
 }
 
-span{
-    font-size: 20px;
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 3.8rem;
+    color: var(--primario);
+}
+
+.titulo span{
+    font-size: 2rem;
 }
