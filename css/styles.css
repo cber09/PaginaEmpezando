@@ -5,22 +5,75 @@
     --gris:#757575;
     --primario: #FFC107;
     --oscuro:#717171;
+    --sexmex:#654565;
 }
 
 
 html{
     font-size: 62.5%;
 }
+
 body{
     font-size: 16px;
+    font-family: 'Supermercado One', cursive;
 }
 
 .titulo{
     text-align: center;
     font-size: 3.8rem;
     color: var(--primario);
+    font-family: 'Supermercado One', cursive;
 }
 
 .titulo span{
     font-size: 2rem;
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.nav-bg{
+    background-color: var(--secundario);    
+}
+.navegacion_principal{
+    display: flex;
+    flex-direction: column;
+}
+
+@media(min-width:768px){
+    .navegacion_principal{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+}
+
+.navegacion_principal a{
+    display: block;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.navegacion_principal a:hover{
+    background-color: var(--primario);
+    
+}
+
+@media(min-width:480px){
+    h1{
+
+    }
+    
+}
+
+@media(min-width:768px){
+    h1{
+
+    }
+    
 }
